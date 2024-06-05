@@ -1,0 +1,1 @@
+//javascript for navigation bar effects on scroll
