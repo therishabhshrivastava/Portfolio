@@ -51,7 +51,10 @@ window.addEventListener("scroll", function(){
     }
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
     
     function typeText(element, texts, speed) {
         var index = 0;
