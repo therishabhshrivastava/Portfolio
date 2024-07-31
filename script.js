@@ -120,6 +120,24 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+  var resumeBtn = document.getElementById("banner-resumeBtn");
+
+  resumeBtn.addEventListener("click", function(event) {
+      event.preventDefault();
+
+      var resumeUrl = "Resume_RishabhKumar.pdf";
+
+      var resumeWindow = window.open(resumeUrl, "_blank");
+
+      var downloadLink = document.createElement("a");
+      downloadLink.href = resumeUrl;
+      downloadLink.download = "Resume_RishabhKumar.pdf"; 
+      downloadLink.target = "_blank";
+      downloadLink.click();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
     var resumeBtn = document.getElementById("about-resumeBtn");
 
     resumeBtn.addEventListener("click", function(event) {
