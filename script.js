@@ -107,13 +107,13 @@ document.addEventListener("DOMContentLoaded", function() {
     resumeBtn.addEventListener("click", function(event) {
         event.preventDefault();
 
-        var resumeUrl = "Resume_RishabhKumar.pdf";
+        var resumeUrl = "RishabhKumar_Resume.pdf";
 
         var resumeWindow = window.open(resumeUrl, "_blank");
 
         var downloadLink = document.createElement("a");
         downloadLink.href = resumeUrl;
-        downloadLink.download = "Resume_RishabhKumar.pdf"; 
+        downloadLink.download = "RishabhKumar_Resume.pdf"; 
         downloadLink.target = "_blank";
         downloadLink.click();
     });
@@ -125,35 +125,18 @@ document.addEventListener("DOMContentLoaded", function() {
   resumeBtn.addEventListener("click", function(event) {
       event.preventDefault();
 
-      var resumeUrl = "Resume_RishabhKumar.pdf";
+      var resumeUrl = "RishabhKumar_Resume.pdf";
 
       var resumeWindow = window.open(resumeUrl, "_blank");
 
       var downloadLink = document.createElement("a");
       downloadLink.href = resumeUrl;
-      downloadLink.download = "Resume_RishabhKumar.pdf"; 
+      downloadLink.download = "RishabhKumar_Resume.pdf"; 
       downloadLink.target = "_blank";
       downloadLink.click();
   });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    var resumeBtn = document.getElementById("about-resumeBtn");
-
-    resumeBtn.addEventListener("click", function(event) {
-        event.preventDefault();
-
-        var resumeUrl = "Resume_RishabhKumar.pdf";
-
-        // var resumeWindow = window.open(resumeUrl, "_blank");
-
-        var downloadLink = document.createElement("a");
-        downloadLink.href = resumeUrl;
-        downloadLink.download = "Resume_RishabhKumar.pdf"; 
-        downloadLink.target = "_blank";
-        downloadLink.click();
-    });
-});
 
 
 document.addEventListener("visibilitychange", function() {
